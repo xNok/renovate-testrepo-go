@@ -1,0 +1,13 @@
+{
+    "packageRules": [
+        {
+            "matchDatasources": [
+                "go"
+            ],
+            "matchPackagePatterns": [
+                "^github.com\/go-playground\/webhooks\/v6"
+            ],
+            "replacementNameTemplate": "{{{replace 'github.com/go-playground/webhooks/v6' 'github.com/xnok/webhooks/v6' packageName}}}"
+        }
+    ]
+}
